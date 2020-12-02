@@ -123,7 +123,7 @@ class TaoClient extends TaoApi
     /**
      * 获取结果
      * @return bool|mixed|string
-     * @throws CommonException
+     * @throws \Exception
      */
     public function getResult(){
         /*检测方法*/
